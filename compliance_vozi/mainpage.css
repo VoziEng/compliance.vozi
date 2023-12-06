@@ -1,0 +1,44 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/bg.png'); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.button-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Translucent white background */
+    padding: 10px;
+    border-radius: -21px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    margin: 15px;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: 2px solid #000; /* Black border for the button */
+    border-radius: 30px;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text color */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    outline: none;
+}
+
+button:hover {
+    background-color: #000; /* Black background on hover */
+    color: #fff; /* White text color on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Shadow effect for depth */
+}
+
+button:active {
+    transform: translateY(2px); /* Push effect on click */
+}
